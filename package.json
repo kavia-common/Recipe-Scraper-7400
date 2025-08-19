@@ -1,27 +1,44 @@
 {
-  "name": "recipe-scraper",
-  "version": "1.25.0",
-  "description": "A JS package for scraping recipes from the web.",
+  "name": "recipe-scraper-7400",
+  "version": "1.1.0",
+  "description": "Recipe scraper backend package with got+cheerio and puppeteer strategies, JSON-LD fallback, central schema, and SSRF-safe validation.",
   "author": "Justin Adkins <jadkins1019@gmail.com>",
   "license": "MIT",
   "keywords": [
     "recipes",
     "scraper",
     "web-scraper",
-    "recipe"
+    "recipe",
+    "cheerio",
+    "puppeteer",
+    "json-ld",
+    "got"
   ],
-  "main": "scrapers/index.js",
+  "main": "src/index.js",
+  "types": "src/types.d.ts",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "default": "./src/index.js",
+      "types": "./src/types.d.ts"
+    }
+  },
   "scripts": {
     "test": "mocha --timeout 15000",
-    "start": "node scrapers/index.js",
+    "start": "node index.js",
     "coverage": "nyc npm test",
-    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
+    "lint": "eslint \"src/**/*.js\"",
+    "format": "prettier --write \"{src,scrapers}/**/*.js\"",
+    "typecheck": "echo \"Type definitions provided via d.ts\""
   },
   "files": [
     "helpers/",
     "scrapers/",
+    "src/",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "index.js"
   ],
   "repository": {
     "type": "git",
@@ -32,15 +49,16 @@
   },
   "homepage": "https://github.com/jadkins89/Recipe-Scraper#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "parse-domain": "^2.3.2",
-    "puppeteer": "^1.20.0",
-    "request": "^2.88.0"
+    "cheerio": "^1.0.0-rc.12",
+    "got": "^13.0.0",
+    "puppeteer": "^22.6.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "coveralls": "^3.0.6",
     "mocha": "^6.2.1",
-    "nyc": "^14.1.1"
+    "nyc": "^14.1.1",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.3"
   }
 }
