@@ -1,148 +1,121 @@
-# recipe-scraper
+# Recipe Scraper 7400
 
-**A JS package for scraping recipes from the web.**
+Production-ready Node.js recipe scraper package with:
 
-[![Build Status](https://travis-ci.org/jadkins89/Recipe-Scraper.svg?branch=master)](https://travis-ci.org/jadkins89/Recipe-Scraper)
-[![Coverage Status](https://coveralls.io/repos/github/jadkins89/Recipe-Scraper/badge.svg?branch=master)](https://coveralls.io/github/jadkins89/Recipe-Scraper?branch=master)
+- Modular architecture
+- SSRF-safe URL validation
+- Migration from deprecated `request` to `got`
+- Dual scraping strategies: got+cheerio and puppeteer
+- JSON-LD Recipe fallback parser
+- Central recipe schema and normalization
+- Strong API ergonomics with Promise-based API
+- Type definitions (d.ts) and JSDoc
+- ESLint + Prettier configuration
 
 ## Installation
 
 ```sh
-npm install recipe-scraper
+npm install
+```
+
+If you are consuming as a package:
+
+```sh
+npm install recipe-scraper-7400
 ```
 
 ## Usage
 
-```javascript
-// import the module
-const recipeScraper = require("recipe-scraper");
+CommonJS:
 
-// enter a supported recipe url as a parameter - returns a promise
-async function someAsyncFunc() {
-  ...
-  let recipe = await recipeScraper("some.recipe.url");
-  ...
-}
+```js
+const { scrapeRecipe, errors } = require('recipe-scraper-7400');
 
-// using Promise chaining
-recipeScraper("some.recipe.url").then(recipe => {
-    // do something with recipe
-  }).catch(error => {
-    // do something with error
-  });
+(async () => {
+  try {
+    const recipe = await scrapeRecipe('https://example.com/my-recipe', {
+      strategy: 'auto', // 'cheerio' | 'puppeteer' | 'auto'
+      requestTimeoutMs: 15000,
+      retryLimit: 2,
+      allowLocalNetwork: false
+    });
+    console.log(recipe);
+  } catch (e) {
+    if (e instanceof errors.InvalidURLError) {
+      console.error('Invalid URL:', e.message);
+    } else {
+      console.error('Scrape failed:', e);
+    }
+  }
+})();
 ```
+
+TypeScript:
+
+```ts
+import { scrapeRecipe, type Recipe, type ScrapeOptions } from 'recipe-scraper-7400';
+```
+
+## API
+
+- scrapeRecipe(url, options?): Promise<Recipe>
+
+Options:
+- strategy: 'cheerio' | 'puppeteer' | 'auto' (default 'auto', prefers got+cheerio)
+- headers: custom HTTP headers for got
+- requestTimeoutMs, retryLimit, rejectUnauthorized: got request behavior
+- launchTimeoutMs, pageTimeoutMs, userAgent: puppeteer behavior
+- allowLocalNetwork: default false; if true, disables private IP blocking (SSRF defense)
+
+Recipe shape:
+
+```ts
+type Recipe = {
+  name?: string;
+  image?: string;
+  ingredients: string[];
+  instructions: string[];
+  yields?: string | number;
+  tags?: string[];
+  time?: { total?: string; prep?: string; cook?: string };
+  source?: string;
+}
+```
+
+## Strategies
+
+- got+cheerio: fast, lightweight, suitable for most static pages
+- puppeteer: for dynamic pages that require JS rendering
+- JSON-LD fallback: parser for schema.org/Recipe exposes many sites even without bespoke scrapers
+
+## Errors
+
+- InvalidURLError
+- SSRFBlockedError
+- UnsupportedDomainError
+- ScrapeError
+- NetworkError
+- ParseError
+
+All extend AppError and include optional cause and metadata.
+
+## Environment
+
+- SCRAPER_STRATEGY: 'cheerio' | 'puppeteer' | 'auto' (optional)
+- REACT_APP_REACT_APP_API_BASE_URL: frontend-only variable; not used by this package.
+
+You can set a .env in your host project if needed; this package does not read .env directly.
 
 ## Supported Websites
 
-- https://www.101cookbooks.com/
-- https://www.allrecipes.com/
-- https://www.ambitiouskitchen.com/
-- https://www.averiecooks.com/
-- https://www.bbc.co.uk/
-- https://www.bbcgoodfood.com/
-- https://www.bonappetit.com/
-- https://www.budgetbytes.com/
-- https://www.centraltexasfoodbank.org/
-- https://www.closetcooking.com/
-- https://cookieandkate.com/
-- https://copykat.com/
-- https://damndelicious.net/
-- http://www.eatingwell.com/
-- https://www.epicurious.com/
-- https://www.food.com/
-- https://www.foodandwine.com/
-- https://www.foodnetwork.com/
-- http://www.gimmesomeoven.com/
-- https://www.kitchenstories.com/
-- https://www.minimalistbaker.com/
-- https://www.myrecipes.com/
-- https://www.nomnompaleo.com/
-- https://www.omnivorescookbook.com/
-- https://pinchofyum.com/
-- https://recipetineats.com/
-- https://www.seriouseats.com/
-- https://www.simplyrecipes.com/
-- https://smittenkitchen.com/
-- https://thepioneerwoman.com/
-- https://tastesbetterfromscratch.com/
-- https://therealfoodrds.com/
-- https://www.thespruceeats.com/
-- https://whatsgabycooking.com/
-- https://www.woolworths.com.au/
-- https://www.yummly.com/
+This package includes adapters to legacy site-specific scrapers found in the `scrapers/` folder and falls back to generic strategies + JSON-LD where possible.
 
-Don't see a website you'd like to scrape? Open an [issue](https://github.com/jadkins89/Recipe-Scraper/issues) and we'll do our best to add it.
+## Development
 
-## Recipe Object
+- Lint: `npm run lint`
+- Format: `npm run format`
+- Tests: `npm test`
 
-Depending on the recipe, certain fields may be left blank. All fields are represented as strings or arrays of strings.
+## License
 
-```javascript
-{
-    name: "",
-    ingredients: [],
-    instructions: [],
-    tags: [],
-    servings: "",
-    image: "",
-    time: {
-      prep: "",
-      cook: "",
-      active: "",
-      inactive: "",
-      ready: "",
-      total: ""
-    }
-}
-```
-
-## Error Handling
-
-If the url provided is invalid and a domain is unable to be parsed, an error message will be returned.
-
-```javascript
-recipeScraper("keyboard kitty").catch(error => {
-  console.log(error.message);
-  // => "Failed to parse domain"
-});
-```
-
-If the url provided doesn't match a supported domain, an error message will be returned.
-
-```javascript
-recipeScraper("some.invalid.url").catch(error => {
-  console.log(error.message);
-  // => "Site not yet supported"
-});
-```
-
-If a recipe is not found on a supported domain site, an error message will be returned.
-
-```javascript
-recipeScraper("some.no.recipe.url").catch(error => {
-  console.log(error.message);
-  // => "No recipe found on page"
-});
-```
-
-If a page does not exist or some other 400+ error occurs when fetching, an error message will be returned.
-
-```javascript
-recipeScraper("some.nonexistent.page").catch(error => {
-  console.log(error.message);
-  // => "No recipe found on page"
-});
-```
-
-If a supported url does not contain the proper sub-url to be a valid recipe, an error message will be returned including the sub-url required.
-
-```javascript
-recipeScraper("some.improper.url").catch(error => {
-  console.log(error.message);
-  // => "url provided must include '#subUrl'"
-});
-```
-
-## Bugs
-
-With web scraping comes a reliance on the website being used not changing format. If this occurs we need to update our scrape. We've integrated testing that should notify us if this occurs but please reach out if you are experiencing an issue.
+MIT

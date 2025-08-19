@@ -1,5 +1,9 @@
 const puppeteer = require("puppeteer");
 
+/**
+ * Legacy helper kept for backward compatibility with existing scrapers.
+ * New code should use src/lib/scrape/strategies/puppeteerStrategy.fetchHtml for richer options.
+ */
 const blockedResourceTypes = [
   "image",
   "media",
@@ -37,14 +41,15 @@ const skippedResources = [
 
 const puppeteerFetch = async url => {
   const browser = await puppeteer.launch({
-    headless: true
+    headless: "new",
+    args: ['--no-sandbox','--disable-setuid-sandbox','--disable-dev-shm-usage','--disable-gpu']
   });
 
   const page = await browser.newPage();
   await page.setRequestInterception(true);
 
   await page.on("request", req => {
-    const requestUrl = req._url.split("?")[0].split("#")[0];
+    const requestUrl = req.url().split("?")[0].split("#")[0];
     if (
       blockedResourceTypes.indexOf(req.resourceType()) !== -1 ||
       skippedResources.some(resource => requestUrl.indexOf(resource) !== -1)
@@ -55,9 +60,9 @@ const puppeteerFetch = async url => {
     }
   });
 
-  const response = await page.goto(url);
+  const response = await page.goto(url, { waitUntil: "networkidle2" });
 
-  if (response._status < 400) {
+  if (response.status() < 400) {
     let html = await page.content();
     try {
       await browser.close();
@@ -65,10 +70,11 @@ const puppeteerFetch = async url => {
       return html;
     } // avoid websocket error if browser already closed
   } else {
+    const status = response.status();
     try {
       await browser.close();
     } finally {
-      return Promise.reject(response._status);
+      return Promise.reject(status);
     }
   }
 };
