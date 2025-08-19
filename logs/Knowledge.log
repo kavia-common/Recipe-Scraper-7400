@@ -1846,3 +1846,372 @@
 2025-08-19 05:36:46,295 - Knowledge - INFO - Updating org costs, total cost: 0.0252366
 2025-08-19 05:36:46,434 - Knowledge - INFO - Saving knowledge to Redis...
 2025-08-19 05:36:46,492 - Knowledge - INFO - Knowledge saved to Redis successfully
+2025-08-19 10:58:47,551 - Knowledge - INFO - Redis support added with prefix knowledge:b5568kg:
+2025-08-19 10:58:47,868 - Knowledge - INFO - load persisted knowledge: begin
+2025-08-19 10:58:49,186 - Knowledge - INFO - Persisted knowledge files in /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/.knowledge have been renamed to use .json
+2025-08-19 10:58:49,200 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,200 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,201 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/woolworths.test.js
+2025-08-19 10:58:49,206 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,206 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,206 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/food.test.js
+2025-08-19 10:58:49,211 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,211 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,211 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/epicurious.test.js
+2025-08-19 10:58:49,215 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,215 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,215 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/ambitiouskitchen.js
+2025-08-19 10:58:49,219 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,220 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,220 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/bbcgoodfood.test.js
+2025-08-19 10:58:49,224 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,224 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,224 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/yummlyConstants.js
+2025-08-19 10:58:49,228 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,229 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,229 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/gimmesomeoven.js
+2025-08-19 10:58:49,233 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,233 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,233 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/thespruceeats.test.js
+2025-08-19 10:58:49,237 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,237 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,237 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/thepioneerwomanConstants.js
+2025-08-19 10:58:49,242 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,242 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,242 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/julieblanner.js
+2025-08-19 10:58:49,251 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,251 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,252 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/copykat.js
+2025-08-19 10:58:49,257 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,257 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,257 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/nomnompaleoConstants.js
+2025-08-19 10:58:49,262 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,262 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,262 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/averiecooks.js
+2025-08-19 10:58:49,268 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,268 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,268 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/seriouseats.js
+2025-08-19 10:58:49,273 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,273 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,273 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/101cookbooks.test.js
+2025-08-19 10:58:49,279 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,279 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,280 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/myrecipesConstants.js
+2025-08-19 10:58:49,285 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,285 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,285 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/damndeliciousConstants.js
+2025-08-19 10:58:49,291 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,291 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,291 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/therecipecritic.js
+2025-08-19 10:58:49,296 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,296 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,296 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/eatingwell.test.js
+2025-08-19 10:58:49,301 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,301 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,301 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/bbc.js
+2025-08-19 10:58:49,305 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,305 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,305 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/minimalistbaker.test.js
+2025-08-19 10:58:49,310 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,310 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,310 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/whatsgabycooking.test.js
+2025-08-19 10:58:49,314 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,314 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,314 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/simplyrecipesConstants.js
+2025-08-19 10:58:49,318 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,318 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,319 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/package.json
+2025-08-19 10:58:49,323 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,323 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,323 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/allRecipes.test.js
+2025-08-19 10:58:49,329 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,329 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,329 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/thereaddealfoodrds.test.js
+2025-08-19 10:58:49,335 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,335 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,336 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/omnivorescookbookConstants.js
+2025-08-19 10:58:49,342 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,342 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,342 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/tasteofhome.js
+2025-08-19 10:58:49,347 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,347 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,347 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/kitchenstories.js
+2025-08-19 10:58:49,352 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,352 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,352 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/closetcooking.test.js
+2025-08-19 10:58:49,357 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,357 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,357 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/smittenkitchen.test.js
+2025-08-19 10:58:49,361 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,361 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,361 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/thepioneerwoman.js
+2025-08-19 10:58:49,366 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,366 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,366 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/nomnompaleo.js
+2025-08-19 10:58:49,370 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,370 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,370 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/kitchenstoriesConstants.js
+2025-08-19 10:58:49,375 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,375 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,375 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/seriouseatsConstants.js
+2025-08-19 10:58:49,379 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,380 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,380 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/cookieandkate.test.js
+2025-08-19 10:58:49,384 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,384 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,384 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/bbcConstants.js
+2025-08-19 10:58:49,390 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,390 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,390 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/centraltexasfoodbank.test.js
+2025-08-19 10:58:49,395 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,395 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,396 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/pinchofyum.test.js
+2025-08-19 10:58:49,401 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,401 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,401 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/budgetbytes.test.js
+2025-08-19 10:58:49,406 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,406 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,406 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/foodnetwork.test.js
+2025-08-19 10:58:49,411 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,411 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,411 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/yummly.js
+2025-08-19 10:58:49,416 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,416 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,416 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/foodandwine.test.js
+2025-08-19 10:58:49,421 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,421 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,421 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/simplyrecipes.js
+2025-08-19 10:58:49,425 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,425 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,425 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/ambitiouskitchenConstants.js
+2025-08-19 10:58:49,429 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,429 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,429 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/tastebetterfromscratchConstants.js
+2025-08-19 10:58:49,434 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,434 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,435 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/omnivorescookbook.js
+2025-08-19 10:58:49,439 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,439 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,439 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/gimmesomeovenConstants.js
+2025-08-19 10:58:49,444 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,444 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,444 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/averiecooksConstants.js
+2025-08-19 10:58:49,448 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,448 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,449 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/tastesbetterfromscratch.test.js
+2025-08-19 10:58:49,453 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,453 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,453 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/bonappetit.test.js
+2025-08-19 10:58:49,457 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,457 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,458 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/myrecipes.js
+2025-08-19 10:58:49,462 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,462 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,462 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/copykatConstants.js
+2025-08-19 10:58:49,467 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,467 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,467 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/damndelicious.js
+2025-08-19 10:58:49,471 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,471 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,472 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/whatsgabycooking.js
+2025-08-19 10:58:49,476 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,476 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,476 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/foodandwineConstants.js
+2025-08-19 10:58:49,480 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,480 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,481 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/allrecipes.js
+2025-08-19 10:58:49,484 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,485 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,485 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/closetcooking.js
+2025-08-19 10:58:49,489 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,489 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,489 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/omnivorescookbook.test.js
+2025-08-19 10:58:49,493 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,493 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,493 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/helpers/puppeteerFetch.js
+2025-08-19 10:58:49,497 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,497 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,498 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/simplyrecipes.test.js
+2025-08-19 10:58:49,502 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,502 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,502 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/eatingwell.js
+2025-08-19 10:58:49,506 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,506 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,507 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/myrecipes.test.js
+2025-08-19 10:58:49,511 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,511 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,511 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/damndelicious.test.js
+2025-08-19 10:58:49,515 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,515 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,516 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/theblackpeppercorn.js
+2025-08-19 10:58:49,520 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,520 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,520 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/bonappetitConstants.js
+2025-08-19 10:58:49,524 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,524 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,525 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/minimalistbaker.js
+2025-08-19 10:58:49,528 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,528 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,528 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/101cookbooks.js
+2025-08-19 10:58:49,532 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,533 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,533 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/index.js
+2025-08-19 10:58:49,537 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,537 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,537 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/bbcgoodfood.js
+2025-08-19 10:58:49,541 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,541 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,542 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/cookieandkateConstants.js
+2025-08-19 10:58:49,546 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,546 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,546 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/woolworths.js
+2025-08-19 10:58:49,551 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,551 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,551 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/centraltexasfoodbankConstants.js
+2025-08-19 10:58:49,555 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,555 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,555 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/budgetbytesConstants.js
+2025-08-19 10:58:49,559 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,559 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,560 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/pinchofyumConstants.js
+2025-08-19 10:58:49,564 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,564 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,565 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/food.js
+2025-08-19 10:58:49,569 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,569 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,570 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/yummly.test.js
+2025-08-19 10:58:49,574 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,574 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,574 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/epicurious.js
+2025-08-19 10:58:49,578 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,578 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,578 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/foodnetworkConstants.js
+2025-08-19 10:58:49,583 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,583 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,583 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/README.md
+2025-08-19 10:58:49,587 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,587 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,588 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/helpers/commonRecipeTest.js
+2025-08-19 10:58:49,592 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,592 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,592 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/thespruceeats.js
+2025-08-19 10:58:49,596 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,597 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,597 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/thepioneerwoman.test.js
+2025-08-19 10:58:49,601 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,601 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,602 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/gimmedelicious.js
+2025-08-19 10:58:49,606 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,608 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,608 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/recipetineats.js
+2025-08-19 10:58:49,612 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,612 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,612 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/smittenkitchenConstants.js
+2025-08-19 10:58:49,616 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,616 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,617 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/nomnompaleo.test.js
+2025-08-19 10:58:49,620 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,621 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,621 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/therealfoodrds.js
+2025-08-19 10:58:49,625 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,625 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,625 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/tastesbetterfromscratch.js
+2025-08-19 10:58:49,630 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,630 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,630 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/copykat.test.js
+2025-08-19 10:58:49,634 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,635 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,635 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/averiecooks.test.js
+2025-08-19 10:58:49,639 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,640 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,640 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/melskitchencafe.js
+2025-08-19 10:58:49,644 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,644 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,644 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/thespruceeatsConstants.js
+2025-08-19 10:58:49,649 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,649 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,649 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/bonappetit.js
+2025-08-19 10:58:49,654 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,654 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,654 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/helpers/recipe-schema.js
+2025-08-19 10:58:49,658 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,659 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,659 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/gimmesomeoven.test.js
+2025-08-19 10:58:49,665 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,665 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,667 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/recipetineatsConstants.js
+2025-08-19 10:58:49,671 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,672 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,672 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/foodandwine.js
+2025-08-19 10:58:49,676 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,676 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,676 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/ambitiouskitchen.test.js
+2025-08-19 10:58:49,680 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,680 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,681 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/bbcgoodfoodConstants.js
+2025-08-19 10:58:49,685 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,685 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,685 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/epicuriousConstants.js
+2025-08-19 10:58:49,690 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,690 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,690 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/foodConstants.js
+2025-08-19 10:58:49,695 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,695 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,695 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/woolworthsConstants.js
+2025-08-19 10:58:49,700 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,701 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,701 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/whatsgabycookingConstants.js
+2025-08-19 10:58:49,705 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,705 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,705 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/allRecipesConstants.js
+2025-08-19 10:58:49,710 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,710 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,710 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/kitchenStories.test.js
+2025-08-19 10:58:49,715 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,715 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,715 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/closetcookingConstants.js
+2025-08-19 10:58:49,720 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,720 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,721 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/smittenkitchen.js
+2025-08-19 10:58:49,732 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,732 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,732 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/pinchofyum.js
+2025-08-19 10:58:49,743 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,743 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,743 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/minimalistbakerConstants.js
+2025-08-19 10:58:49,749 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,749 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,749 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/eatingwellConstants.js
+2025-08-19 10:58:49,754 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,754 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,754 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/cookieandkate.js
+2025-08-19 10:58:49,760 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,760 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,760 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/seriouseats.test.js
+2025-08-19 10:58:49,765 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,765 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,765 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/therealdealfoodrdsConstants.js
+2025-08-19 10:58:49,769 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,769 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,769 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/centraltexasfoodbank.js
+2025-08-19 10:58:49,774 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,774 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,774 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/bbc.test.js
+2025-08-19 10:58:49,779 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,779 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,779 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/foodnetwork.js
+2025-08-19 10:58:49,783 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,783 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,784 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/test/constants/101cookbooksConstants.js
+2025-08-19 10:58:49,789 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Recipe-Scraper-7400.git:kavia-new-sources
+2025-08-19 10:58:49,789 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f7dcccd9290>
+2025-08-19 10:58:49,789 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/7400/b5568kg/Recipe-Scraper-7400/scrapers/budgetbytes.js
+2025-08-19 10:58:49,792 - Knowledge - INFO - load persisted knowledge: end
+2025-08-19 10:58:49,792 - Knowledge - INFO - load persisted docinfo: begin
+2025-08-19 10:58:49,794 - Knowledge - INFO - load persisted docinfo: end
+2025-08-19 10:58:49,810 - Knowledge - INFO - worker kw1 created with dedicated MongoDB connection (total: 1)
+2025-08-19 10:58:49,810 - Knowledge - INFO - knowledge worker kw1 start
+2025-08-19 10:58:49,811 - Knowledge - INFO - Knowledge creation complete
+2025-08-19 10:58:49,813 - Knowledge - INFO - Updating org costs, total cost: 0
+2025-08-19 10:58:49,824 - Knowledge - INFO - Saving knowledge to Redis...
+2025-08-19 10:58:49,876 - Knowledge - INFO - Knowledge saved to Redis successfully
